@@ -1,0 +1,108 @@
+/*Starlight css attributed to bootsnipp.com/snippets/o8WGg
+------to customize appearance of horizontal rule --------
+*/
+
+.starlight-container {
+    background-color: #18bc9c;
+}
+
+hr.star-light,
+hr.star-primary, hr.star-dark {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after, hr.star-dark:after {
+    content: "\2605";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary, hr.star-dark {
+    border-color: #2c3e50;
+}
+
+hr.star-primary:after, hr.star-dark:after {
+    color: #2c3e50;
+    background-color: #18bc9c;
+}
+
+hr.star-dark:after	{
+	background-color: #fff;
+}
+
+/*Modal image styles */
+
+.portfolio-img	{
+	max-width:100%;
+}
+
+/*****************************
+--Customized own styles from scratch
+******************************/
+.navbar-default	{
+	width: 100%;
+	border: none;
+	z-index: 10;
+	border-radius: 0;
+}
+
+.navbar-brand, .nav	{
+	font-size: 1.4em;
+}
+
+.navbar-blue	{
+	background-color: #2C3E50;
+}
+
+header	{
+	padding-top: 80px;
+}
+
+.spacing	{
+	margin-bottom: 25px;
+}
+
+.modal-dialog	{
+	width: 80%;
+	text-align: center;
+}
+
+.footer{padding-top:5rem;padding-bottom:5rem;background-color:#2c3e50;color:#fff}
+
+li.list-class-item	{
+	font-size: 20px;
+}
+
+.copyright {
+	padding: 24px 0 24px 0;
+	background-color: #1A252F;
+	color: #fff;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/*styles attributed to bootply.com/R0zDR7NMCM*
+--- to change background color of navbar links during hover and active---
+*/
+
+.navbar-custom1 .nav > li > a:focus,.navbar-custom1 .nav > li > a:hover,.navbar-custom1 .nav > li.active > a {  background-color: #E9C29C;}/*-- change navbar dropdown color .navbar-custom1 .navbar-nav .open .dropdown-menu>li>a,.navbar-custom1 .navbar-nav .open .dropdown-menu {  background-color: #E9C29C;  color:#ffffff;}        
+
